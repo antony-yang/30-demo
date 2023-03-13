@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report report="任务2022-11-17T13-46-08-278920报告">
+	<summary>
+		<taskname>2022-11-17T13-46-08-278920</taskname>
+		<creat_time>2022-11-17T13-46-08-278920</creat_time>
+		<protocol>DongJian_DNP</protocol>
+		<host_ip>172.16.145.25</host_ip>
+		<port>20000</port>
+		<fuzzing_param>C://Program Files//Wireshark//Wireshark.exe</fuzzing_param>
+	</summary>
+	<task_info>
+		<total_cases>N/A</total_cases>
+		<tested_cases>1058</tested_cases>
+		<start_time>2022-11-17T13-46-08-278920</start_time>
+		<end_time>2022-11-17T13-49-30-924566</end_time>
+		<time_consuming>202秒</time_consuming>
+		<task_status>finished</task_status>
+	</task_info>
+	<crash>
+		<crash_node></crash_node>
+	</crash>
+</report>

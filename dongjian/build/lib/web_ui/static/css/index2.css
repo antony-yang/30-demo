@@ -1,0 +1,89 @@
+#main{
+	width: 80%;
+	margin: 50px auto 0 auto;
+}
+.btn-box{
+	text-align: right;
+	height: 50px;
+}
+button#add-task {
+    width: 100px;
+    height: 34px;
+    background: linear-gradient(90deg, #FDAE6B, #FA7505);
+    box-shadow: 0px 10px 30px 0px rgba(252, 161, 84, 0.45);
+    border-radius: 6px;
+    border: 0 none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+button#return-back{
+    width: 100px;
+    height: 34px;
+    background: linear-gradient(90deg, #FDAE6B, #FA7505);
+    box-shadow: 0px 10px 30px 0px rgba(252, 161, 84, 0.45);
+    border-radius: 6px;
+    border: 0 none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.layui-table {
+    width: 100%!important;
+}
+.layui-table thead tr{
+	
+	box-shadow: 7px 7px 20px 0px rgba(139, 139, 139, 0.08);
+}
+.layui-table th{
+	border: 0 none;
+	font-size: 16px;
+	font-weight: 500;
+	color: #333333;
+}
+.layui-table td{
+	border-left: 0 none;
+	border-right: 0 none;
+}
+.layui-table tr:nth-child(2n) td{
+	background-color: rgba(104, 207, 152, 0.1);
+}
+div#page {
+    text-align: right;
+}
+.layui-laypage a, .layui-laypage span {
+    border-radius: 4px;
+	padding: 0px 10px;
+	margin-left: 4px;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+    background-color: #009688;
+	background: linear-gradient(90deg, #6CD19C, #2BA85A);
+	border-radius: 4px;
+}
+.layui-laypage>:last-child,.layui-laypage>:first-child {
+    border: 0;
+}
+.layui-layer-btn.layui-layer-btn- {
+    text-align: center;
+	position: relative;
+	bottom: 10px;
+}
+.layui-layer-btn.layui-layer-btn- a{
+	width: 100px;
+	height: 35px;
+	background: linear-gradient(90deg, #0CA7E3, #0183B5);
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 35px;
+}
+.layui-layer-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+a.layui-layer-btn1 {
+    background: #ccc!important;
+}

@@ -1,0 +1,56 @@
+2022-04-11T15-39-53-780893:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/DongJian-0.0.1.0-py3.7.egg/script/wsession.py", line 560, in get_task_list_total_page
+    c = self._cursor_r .execute(sql)
+  File "/usr/local/lib/python3.7/site-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dongjian.info' doesn't exist")
+2022-04-11T15-39-55-396347:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/DongJian-0.0.1.0-py3.7.egg/script/wsession.py", line 527, in get_task_list_by_page
+    c = self._cursor_r.execute(sql)
+  File "/usr/local/lib/python3.7/site-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dongjian.info' doesn't exist")
+2022-04-11T16-49-01-165101:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/DongJian-0.0.1.0-py3.7.egg/script/wsession.py", line 827, in delete_task
+    result_db = rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2022-04-11T16-49-16-374584:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/DongJian-0.0.1.0-py3.7.egg/script/wsession.py", line 827, in delete_task
+    result_db = rows[0][0]
+TypeError: 'NoneType' object is not subscriptable

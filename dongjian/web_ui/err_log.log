@@ -1,0 +1,1393 @@
+2020-05-18T16-34-02-623544:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 404, in get_task_list_total_page
+    res = int((cursor._rows)[0][0] / page_size) + 1
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-34-33-714980:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 381, in get_task_list_by_page
+    for row in rows:
+TypeError: 'NoneType' object is not iterable
+2020-05-18T16-34-35-171902:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-34-37-094014:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 381, in get_task_list_by_page
+    for row in rows:
+TypeError: 'NoneType' object is not iterable
+2020-05-18T16-34-37-786650:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-34-38-443133:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-34-39-147021:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-34-39-861259:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-34-40-331593:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-34-41-665579:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 370, in get_task_list_by_page
+    page_max = int(l / page_size) + 1
+UnboundLocalError: local variable 'l' referenced before assignment
+2020-05-18T16-34-43-430526:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-34-50-288385:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 370, in get_task_list_by_page
+    page_max = int(l / page_size) + 1
+UnboundLocalError: local variable 'l' referenced before assignment
+2020-05-18T16-34-54-550922:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-35-18-545249:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 370, in get_task_list_by_page
+    page_max = int(l / page_size) + 1
+UnboundLocalError: local variable 'l' referenced before assignment
+2020-05-18T16-35-19-531225:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 370, in get_task_list_by_page
+    page_max = int(l / page_size) + 1
+UnboundLocalError: local variable 'l' referenced before assignment
+2020-05-18T16-35-48-106258:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-35-49-360723:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-35-50-095397:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 369, in get_task_list_by_page
+    l = (cursor._rows)[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-50-19-278225:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-50-26-308427:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 507, in get_task_result_total_page
+    ret = int((self._cursor_r._rows)[0][0] / page_size) + 1
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+2020-05-18T16-50-26-628070:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 507, in get_task_result_total_page
+    ret = int((self._cursor_r._rows)[0][0] / page_size) + 1
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+2020-05-18T16-50-33-065651:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 553, in get_task_result_by_page
+    l = self._cursor_r._rows[0][0]    #data total
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-50-37-843799:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 593, in get_task_result_by_page
+    flag = res_rows[0][0]
+IndexError: tuple index out of range
+2020-05-18T16-51-53-930907:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 380, in get_task_list_by_page
+    res.append({"num": row[0], "taskname": row[1], "tasktype": row[2], "taskcreator": row[3],
+IndexError: tuple index out of range
+2020-05-18T16-52-23-794576:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 380, in get_task_list_by_page
+    res.append({"num": row[0], "taskname": row[1], "tasktype": row[2], "taskcreator": row[3],
+IndexError: tuple index out of range
+2020-05-18T16-54-26-223122:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 589, in get_task_result_by_page
+    cc = self._cursor_r.execute(sql2)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-54-26-477715:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 597, in get_task_result_by_page
+    res_json = {"test_case_index": row[0], "type": row[1], "description": row[2], "data": self.ModString(row[3]),
+IndexError: tuple index out of range
+2020-05-18T16-54-26-505228:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 551, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 657, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 688, in _read_bytes
+    self._sock.settimeout(self._read_timeout)
+AttributeError: 'NoneType' object has no attribute 'settimeout'
+2020-05-18T16-54-26-808692:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 551, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-54-29-340281:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 589, in get_task_result_by_page
+    cc = self._cursor_r.execute(sql2)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-25-998726:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-56-26-507971:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 683, in _read_packet
+    packet = packet_type(buff, self.encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 235, in __init__
+    self._parse_field_descriptor(encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 242, in _parse_field_descriptor
+    self.catalog = self.read_length_coded_string()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 175, in read_length_coded_string
+    length = self.read_length_encoded_integer()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 166, in read_length_encoded_integer
+    return self.read_uint64()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 138, in read_uint64
+    result = struct.unpack_from('<Q', self._data, self._position)[0]
+struct.error: unpack_from requires a buffer of at least 8 bytes
+2020-05-18T16-56-26-511257:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 551, in get_task_result_by_page
+    l = self._cursor_r._rows[0][0]    #data total
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-56-26-806845:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 683, in _read_packet
+    packet = packet_type(buff, self.encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 235, in __init__
+    self._parse_field_descriptor(encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 242, in _parse_field_descriptor
+    self.catalog = self.read_length_coded_string()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 175, in read_length_coded_string
+    length = self.read_length_encoded_integer()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 166, in read_length_encoded_integer
+    return self.read_uint64()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 138, in read_uint64
+    result = struct.unpack_from('<Q', self._data, self._position)[0]
+struct.error: unpack_from requires a buffer of at least 8 bytes
+2020-05-18T16-56-30-870985:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 587, in get_task_result_by_page
+    cc = self._cursor_r.execute(sql2)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-31-115518:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 683, in _read_packet
+    packet = packet_type(buff, self.encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 235, in __init__
+    self._parse_field_descriptor(encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 242, in _parse_field_descriptor
+    self.catalog = self.read_length_coded_string()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 175, in read_length_coded_string
+    length = self.read_length_encoded_integer()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 166, in read_length_encoded_integer
+    return self.read_uint64()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 138, in read_uint64
+    result = struct.unpack_from('<Q', self._data, self._position)[0]
+struct.error: unpack_from requires a buffer of at least 8 bytes
+2020-05-18T16-56-31-429429:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1251, in _get_descriptions
+    eof_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 688, in _read_bytes
+    self._sock.settimeout(self._read_timeout)
+OSError: [Errno 9] Bad file descriptor
+2020-05-18T16-56-33-281638:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 587, in get_task_result_by_page
+    cc = self._cursor_r.execute(sql2)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-33-626608:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 551, in get_task_result_by_page
+    l = self._cursor_r._rows[0][0]    #data total
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-56-33-637024:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-56-33-639488:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 683, in _read_packet
+    packet = packet_type(buff, self.encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 235, in __init__
+    self._parse_field_descriptor(encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 242, in _parse_field_descriptor
+    self.catalog = self.read_length_coded_string()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 175, in read_length_coded_string
+    length = self.read_length_encoded_integer()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 166, in read_length_encoded_integer
+    return self.read_uint64()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 138, in read_uint64
+    result = struct.unpack_from('<Q', self._data, self._position)[0]
+struct.error: unpack_from requires a buffer of at least 8 bytes
+2020-05-18T16-56-33-649522:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 544, in get_task_result_by_page
+    c = self._cursor_r.execute(sql)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1152, in _read_result_packet
+    self._read_rowdata_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1186, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 657, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-33-935830:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 683, in _read_packet
+    packet = packet_type(buff, self.encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 235, in __init__
+    self._parse_field_descriptor(encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 242, in _parse_field_descriptor
+    self.catalog = self.read_length_coded_string()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 175, in read_length_coded_string
+    length = self.read_length_encoded_integer()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 166, in read_length_encoded_integer
+    return self.read_uint64()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 138, in read_uint64
+    result = struct.unpack_from('<Q', self._data, self._position)[0]
+struct.error: unpack_from requires a buffer of at least 8 bytes
+2020-05-18T16-56-34-219265:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-34-496981:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 683, in _read_packet
+    packet = packet_type(buff, self.encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 235, in __init__
+    self._parse_field_descriptor(encoding)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 242, in _parse_field_descriptor
+    self.catalog = self.read_length_coded_string()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 175, in read_length_coded_string
+    length = self.read_length_encoded_integer()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 166, in read_length_encoded_integer
+    return self.read_uint64()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/protocol.py", line 138, in read_uint64
+    result = struct.unpack_from('<Q', self._data, self._position)[0]
+struct.error: unpack_from requires a buffer of at least 8 bytes
+2020-05-18T16-56-34-868265:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 688, in _read_bytes
+    self._sock.settimeout(self._read_timeout)
+OSError: [Errno 9] Bad file descriptor
+2020-05-18T16-56-35-145648:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 551, in get_task_result_by_page
+    l = self._cursor_r._rows[0][0]    #data total
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-56-36-602578:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 587, in get_task_result_by_page
+    cc = self._cursor_r.execute(sql2)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1152, in _read_result_packet
+    self._read_rowdata_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1186, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-36-613152:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 544, in get_task_result_by_page
+    c = self._cursor_r.execute(sql)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1151, in _read_result_packet
+    self._get_descriptions()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1222, in _get_descriptions
+    field = self.connection._read_packet(FieldDescriptorPacket)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-36-897100:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 551, in get_task_result_by_page
+    l = self._cursor_r._rows[0][0]    #data total
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-56-36-931527:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 544, in get_task_result_by_page
+    c = self._cursor_r.execute(sql)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1152, in _read_result_packet
+    self._read_rowdata_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1186, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 657, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-36-944389:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-56-36-971659:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 657, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 688, in _read_bytes
+    self._sock.settimeout(self._read_timeout)
+AttributeError: 'NoneType' object has no attribute 'settimeout'
+2020-05-18T16-56-37-277836:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 688, in _read_bytes
+    self._sock.settimeout(self._read_timeout)
+AttributeError: 'NoneType' object has no attribute 'settimeout'
+2020-05-18T16-56-37-336521:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 551, in get_task_result_by_page
+    l = self._cursor_r._rows[0][0]    #data total
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T16-56-37-410130:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 549, in get_task_result_by_page
+    c = self._cursor_r.execute(sql1)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-37-419569:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 544, in get_task_result_by_page
+    c = self._cursor_r.execute(sql)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1082, in read
+    self._read_result_packet(first_packet)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1152, in _read_result_packet
+    self._read_rowdata_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1186, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-05-18T16-56-37-715627:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 557, in get_task_result_by_page
+    c = self._cursor_r.execute(sql3)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 657, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 688, in _read_bytes
+    self._sock.settimeout(self._read_timeout)
+AttributeError: 'NoneType' object has no attribute 'settimeout'
+2020-05-18T16-56-37-721334:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 544, in get_task_result_by_page
+    c = self._cursor_r.execute(sql)
+  File "/usr/local/lib/python3.6/dist-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 516, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.6/dist-packages/pymysql/connections.py", line 750, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+2020-05-18T16-56-37-727063:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T17-07-23-915343:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 559, in get_task_result_by_page
+    ll = self._cursor_r._rows[0][0]  # carsh total
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T17-08-09-158952:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T17-09-15-866855:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 560, in get_task_result_by_page
+    page_max = int(l / page_size) + 1
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+2020-05-18T17-09-33-933968:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 560, in get_task_result_by_page
+    page_max = int(l / page_size) + 1
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+2020-05-18T17-50-18-650896:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T17-50-29-960971:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T17-50-31-514879:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T17-50-48-991314:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-18T17-50-50-611443:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 551, in get_task_result_by_page
+    l = self._cursor_r._rows[0][0]    #data total
+TypeError: 'NoneType' object is not subscriptable
+2020-05-19T08-39-24-217364:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-19T08-39-48-815896:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 547, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2020-05-19T08-40-05-552689:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 505, in get_task_result_total_page
+    ret = int((self._cursor_r._rows)[0][0] / page_size) + 1
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+2020-05-19T10-17-17-543702:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 550, in get_task_result_by_page
+    l = self._m_db_collection.count({}, {"_id": 0, "name": 1, "number": 1, "timestamp1": 1})
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/collection.py", line 1800, in count
+    return self._count(cmd, collation, session)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/collection.py", line 1600, in _count
+    _cmd, self._read_preference_for(session), session)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/common.py", line 845, in _read_preference_for
+    return session._txn_read_preference() or self.__read_preference
+AttributeError: 'dict' object has no attribute '_txn_read_preference'
+2020-05-19T10-17-22-478238:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 550, in get_task_result_by_page
+    l = self._m_db_collection.count({}, {"_id": 0, "name": 1, "number": 1, "timestamp1": 1})
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/collection.py", line 1800, in count
+    return self._count(cmd, collation, session)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/collection.py", line 1600, in _count
+    _cmd, self._read_preference_for(session), session)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/common.py", line 845, in _read_preference_for
+    return session._txn_read_preference() or self.__read_preference
+AttributeError: 'dict' object has no attribute '_txn_read_preference'
+2020-05-19T10-18-18-209314:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 546, in get_task_result_by_page
+    l = self._m_db_collection.count({}, {"_id": 0, "name": 1, "number": 1, "timestamp1": 1})
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/collection.py", line 1800, in count
+    return self._count(cmd, collation, session)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/collection.py", line 1600, in _count
+    _cmd, self._read_preference_for(session), session)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/common.py", line 845, in _read_preference_for
+    return session._txn_read_preference() or self.__read_preference
+AttributeError: 'dict' object has no attribute '_txn_read_preference'
+2020-05-19T10-20-24-052816:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 557, in get_task_result_by_page
+    flag = ret_all[0]["test_case_index"]
+KeyError: 'test_case_index'
+2020-05-19T10-22-36-735614:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 557, in get_task_result_by_page
+    flag = next(ret_all)["test_case_index"]
+KeyError: 'test_case_index'
+2020-05-19T10-25-25-924017:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 557, in get_task_result_by_page
+    y = next(ret_all)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/cursor.py", line 1164, in next
+    raise StopIteration
+StopIteration
+2020-05-19T10-27-30-100197:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 557, in get_task_result_by_page
+    y = next(ret_all)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/cursor.py", line 1164, in next
+    raise StopIteration
+StopIteration
+2020-05-19T10-28-03-869847:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 557, in get_task_result_by_page
+    y = next(ret_all)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/cursor.py", line 1164, in next
+    raise StopIteration
+StopIteration
+2020-05-19T10-36-00-896172:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 568, in get_task_result_by_page
+    flag = res_all[0]["test_case_index"]
+IndexError: list index out of range
+2020-05-19T10-36-13-365926:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 568, in get_task_result_by_page
+    flag = res_all[0]["test_case_index"]
+IndexError: list index out of range
+2020-05-19T10-36-14-917718:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian-newest-onetable/DongJian/script/wsession.py", line 568, in get_task_result_by_page
+    flag = res_all[0]["test_case_index"]
+IndexError: list index out of range
+2020-06-04T16-23-50-804664:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian20200519/DongJian/script/wsession.py", line 473, in get_task_result
+    flag = res_all[0]["test_case_index"]
+IndexError: list index out of range
+2020-06-04T16-24-17-212150:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian20200519/DongJian/script/wsession.py", line 473, in get_task_result
+    flag = res_all[0]["test_case_index"]
+IndexError: list index out of range
+2020-07-25T00-22-42-606470:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 619, in get_task_crash_total_page
+    crash_count = self._m_db_collection_cases.count_documents({})
+AttributeError: 'NoneType' object has no attribute 'count_documents'
+2020-07-25T00-23-01-309715:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 619, in get_task_crash_total_page
+    crash_count = self._m_db_collection_cases.count_documents({})
+AttributeError: 'NoneType' object has no attribute 'count_documents'
+2020-07-25T00-26-12-557142:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 619, in get_task_crash_total_page
+    crash_count = self._m_db_collection_cases.count_documents({})
+AttributeError: 'NoneType' object has no attribute 'count_documents'
+2020-07-25T00-54-02-883297:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 722, in get_task_parameter
+    parameter = self._m_db_collection_cases.find({}, {"_id":0})
+AttributeError: 'NoneType' object has no attribute 'find'
+2020-07-25T00-54-32-380477:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 722, in get_task_parameter
+    parameter = self._m_db_collection_cases.find({}, {"_id":0})
+AttributeError: 'NoneType' object has no attribute 'find'
+2020-07-25T00-55-31-776356:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 722, in get_task_parameter
+    parameter = self._m_db_collection_cases.find({}, {"_id":0})
+AttributeError: 'NoneType' object has no attribute 'find'
+2020-07-26T19-47-59-319281:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 619, in get_task_crash_total_page
+    crash_count = self._m_db_collection_cases.count_documents({})
+AttributeError: 'NoneType' object has no attribute 'count_documents'
+2020-07-26T19-53-15-420063:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 619, in get_task_crash_total_page
+    crash_count = self._m_db_collection_cases.count_documents({})
+AttributeError: 'NoneType' object has no attribute 'count_documents'
+2020-07-26T19-53-17-028873:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 619, in get_task_crash_total_page
+    crash_count = self._m_db_collection_cases.count_documents({})
+AttributeError: 'NoneType' object has no attribute 'count_documents'
+2020-07-26T20-05-50-032839:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 658, in get_task_crash_by_page
+    ret_all = self._m_db_collection_steps.find({}, {"_id":0, "test_case_index": 1, "type": 1,
+AttributeError: 'NoneType' object has no attribute 'find'
+2020-07-26T20-05-56-802172:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 658, in get_task_crash_by_page
+    ret_all = self._m_db_collection_steps.find({}, {"_id":0, "test_case_index": 1, "type": 1,
+AttributeError: 'NoneType' object has no attribute 'find'
+2020-07-26T22-57-53-119600:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 660, in get_task_crash_by_page
+    ret_all = self._m_db_collection_crash_bin.find({}, {"_id": 0}).skip((page_max-1)*page_size)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo-3.10.1-py3.6-linux-x86_64.egg/pymongo/cursor.py", line 495, in skip
+    raise ValueError("skip must be >= 0")
+ValueError: skip must be >= 0
+2020-07-29T18-44-23-942319:
+Traceback (most recent call last):
+  File "/home/dongjian/Desktop/DongJian/script/wsession.py", line 717, in get_task_parameter
+    p['taskname']
+TypeError: 'NoneType' object is not subscriptable
+2020-10-24T19-21-05-021464:
+Traceback (most recent call last):
+  File "/home/dongjian/pychramproject/DongJian20201023/script/wsession.py", line 850, in get_netzob_info
+    p['task_name']
+TypeError: 'NoneType' object is not subscriptable
+2020-10-24T19-22-44-718352:
+Traceback (most recent call last):
+  File "/home/dongjian/pychramproject/DongJian20201023/script/wsession.py", line 850, in get_netzob_info
+    p['task_name']
+TypeError: 'NoneType' object is not subscriptable
+2020-10-24T19-25-30-106461:
+Traceback (most recent call last):
+  File "/home/dongjian/pychramproject/DongJian20201023/script/wsession.py", line 850, in get_netzob_info
+    p['task_name']
+  File "/usr/local/lib/python3.6/dist-packages/Werkzeug-1.0.1-py3.6.egg/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-10-24T19-26-21-105725:
+Traceback (most recent call last):
+  File "/home/dongjian/pychramproject/DongJian20201023/script/wsession.py", line 850, in get_netzob_info
+    p['task_name']
+  File "/usr/local/lib/python3.6/dist-packages/Werkzeug-1.0.1-py3.6.egg/werkzeug/datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-10-26T11-57-03-926978:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian20201023/script/wsession.py", line 850, in get_netzob_info
+    p['task_name']
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/datastructures.py", line 443, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-10-26T15-29-26-874653:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian20201023/script/wsession.py", line 854, in get_netzob_info
+    p['task_name']
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/datastructures.py", line 443, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-10-26T15-30-33-804399:
+Traceback (most recent call last):
+  File "/home/dongjian/DongJian20201023/script/wsession.py", line 854, in get_netzob_info
+    p['task_name']
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/datastructures.py", line 443, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2022-04-14T20-16-48-278141:
+Traceback (most recent call last):
+  File "/home/arm/下载/DongJian_new/script/wsession.py", line 704, in get_task_result_by_page
+    resdb=rows[0][0]
+TypeError: 'NoneType' object is not subscriptable
+2022-04-19T12-29-03-866710:
+Traceback (most recent call last):
+  File "/home/arm/下载/DongJian_new/script/wsession.py", line 757, in get_task_crash_total_page
+    self._m_db_collection_crash_bin = self._m_db[resdb+"-crash_bin"]
+UnboundLocalError: local variable 'resdb' referenced before assignment
+2022-09-26T16-26-48-796658:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 352, in create_task
+    p['protocol']
+TypeError: 'NoneType' object is not subscriptable
+2022-09-26T16-30-42-002918:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 352, in create_task
+    p['protocol']
+TypeError: 'NoneType' object is not subscriptable
+2022-09-26T16-33-11-560351:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 352, in create_task
+    p['protocol']
+TypeError: 'NoneType' object is not subscriptable
+2022-09-30T14-03-17-619348:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 679, in get_task_result_by_page
+    row = next(ret_all)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-09-30T14-03-22-799709:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 679, in get_task_result_by_page
+    row = next(ret_all)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-09-30T14-03-35-750912:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 679, in get_task_result_by_page
+    row = next(ret_all)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-10-03T08-52-03-637210:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 679, in get_task_result_by_page
+    row = next(ret_all)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-10-28T14-31-37-755449:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 754, in get_task_result_by_page
+    row = next(ret_all)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-10-28T14-37-15-088608:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 754, in get_task_result_by_page
+    row = next(ret_all)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-10-28T14-37-23-373630:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 754, in get_task_result_by_page
+    row = next(ret_all)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-10-28T14-59-19-447521:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 567, in control
+    p['taskIds']
+KeyError: 'taskIds'
+2022-10-28T15-32-37-694973:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 622, in status
+    status.append(status_dic[task["status"]])
+TypeError: 'NoneType' object is not subscriptable
+2022-10-28T15-34-20-238909:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 622, in status
+    status.append(status_dic[task["status"]])
+TypeError: 'NoneType' object is not subscriptable
+2022-10-28T15-37-11-013440:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 622, in status
+    status.append(status_dic[task["status"]])
+TypeError: 'NoneType' object is not subscriptable
+2022-11-01T09-03-05-701902:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 695, in get_task_result
+    try:
+KeyError: 'run_id'
+2022-11-01T09-03-54-704606:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 695, in get_task_result
+    try:
+KeyError: 'run_id'
+2022-11-01T10-24-02-209301:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 695, in get_task_result
+    p['task_id']
+KeyError: 'task_id'
+2022-11-01T11-18-12-097240:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 736, in get_task_result1
+    p['task_id']
+KeyError: 'task_id'
+2022-11-01T14-18-20-617569:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 793, in gen_zip
+    buket = GridFSBucket(mdb, bucket_name=run_id+"-report")
+NameError: name 'mdb' is not defined
+2022-11-01T14-22-49-013279:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 793, in gen_zip
+    buket = GridFSBucket(mdb, bucket_name=run_id+"-report")
+NameError: name 'mdb' is not defined
+2022-11-02T09-41-40-346250:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 919, in log
+TypeError: 'NoneType' object is not subscriptable
+2022-11-02T09-43-04-977261:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 919, in log
+TypeError: 'NoneType' object is not subscriptable
+2022-11-02T09-47-35-214749:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 1186, in delete_tasks
+    p['taskIds']
+TypeError: 'NoneType' object is not subscriptable
+2022-11-02T09-48-10-745400:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 1186, in delete_tasks
+    p['taskIds']
+TypeError: 'NoneType' object is not subscriptable
+2022-11-02T16-41-07-670730:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 689, in progress
+    if task["status"] == "unstart":
+TypeError: 'NoneType' object is not subscriptable
+2022-11-03T09-50-39-200818:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 882, in gen_zip
+    with open(docfile, "wb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../zip/2022-11-03T09-50-04-253282/2022-11-03T09-50-04-253282.xls'
+2022-11-03T09-53-40-023841:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 886, in gen_zip
+    shutil.rmtree(TMP_PATH + "/" + run_id)
+  File "/usr/lib/python3.6/shutil.py", line 490, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/usr/lib/python3.6/shutil.py", line 488, in rmtree
+    os.rmdir(path)
+OSError: [Errno 39] Directory not empty: '../zip/2022-11-03T09-52-56-910392'
+2022-11-15T14-38-43-317582:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 558, in suspend_task_by_name
+    p['run_id']
+TypeError: 'NoneType' object is not subscriptable
+2022-11-15T15-20-23-329868:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 707, in progress
+    task_list_db = self._m_db["task_list"]
+TypeError: 'NoneType' object is not subscriptable
+2022-11-15T15-22-33-840515:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 686, in status
+    percent = []
+KeyError: 'unfinished'
+2022-11-15T15-24-16-082394:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 686, in status
+    return {"code": 400, "msg": "Lacking parameter " + str(e), "token": web_config.token}
+KeyError: 'unfinished'
+2022-11-15T15-24-39-202384:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 685, in status
+    self.insert_log(task_id="", operation="get progress", information="Lacking parameter " + str(e))
+TypeError: 'NoneType' object is not subscriptable
+2022-11-16T10-50-07-794325:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 459, in start_task
+    task_list_db.update_one({"run_id": run_id}, {'$set': {"status": "running", "old_status": old_status}})
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/collection.py", line 911, in update_one
+    session=session,
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/collection.py", line 731, in _update_retryable
+    (write_concern or self.write_concern).acknowledged and not multi, _update, session
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1385, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1656, in _tmp_session
+    s = self._ensure_session(session)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1643, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1594, in __start_session
+    server_session = self._get_server_session()
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1629, in _get_server_session
+    return self._topology.get_server_session()
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 534, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 517, in _check_session_support
+    any_server_selector, self._settings.server_selection_timeout, None
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 225, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: 127.0.0.1:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 63743ae2e026ffa58f3b88b2, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 111] Connection refused',)>]>
+2022-11-16T10-50-38-600481:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 752, in get_task_list_total_page
+    c = task_list_db.count_documents({})
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1623, in count_documents
+    _cmd, self._read_preference_for(session), session
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1350, in _retryable_read
+    server = self._select_server(read_pref, session, address=address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1176, in _select_server
+    server = topology.select_server(server_selector)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 247, in select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 208, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 225, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: 127.0.0.1:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 63743ae2e026ffa58f3b88b2, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 111] Connection refused',)>]>
+2022-11-16T10-51-09-064051:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 752, in get_task_list_total_page
+    c = task_list_db.count_documents({})
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1623, in count_documents
+    _cmd, self._read_preference_for(session), session
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1350, in _retryable_read
+    server = self._select_server(read_pref, session, address=address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1176, in _select_server
+    server = topology.select_server(server_selector)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 247, in select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 208, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 225, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: 127.0.0.1:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 63743ae2e026ffa58f3b88b2, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 111] Connection refused',)>]>
+2022-11-16T17-48-28-574166:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 459, in start_task
+    task_list_db.update_one({"run_id": run_id}, {'$set': {"status": "running", "old_status": old_status}})
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/collection.py", line 911, in update_one
+    session=session,
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/collection.py", line 731, in _update_retryable
+    (write_concern or self.write_concern).acknowledged and not multi, _update, session
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1385, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1656, in _tmp_session
+    s = self._ensure_session(session)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1643, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1594, in __start_session
+    server_session = self._get_server_session()
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1629, in _get_server_session
+    return self._topology.get_server_session()
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 534, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 517, in _check_session_support
+    any_server_selector, self._settings.server_selection_timeout, None
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 225, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: 127.0.0.1:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 637496318a9fc147f6920a59, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 111] Connection refused',)>]>
+2022-11-16T17-48-58-632616:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 752, in get_task_list_total_page
+    c = task_list_db.count_documents({})
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1623, in count_documents
+    _cmd, self._read_preference_for(session), session
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1350, in _retryable_read
+    server = self._select_server(read_pref, session, address=address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1176, in _select_server
+    server = topology.select_server(server_selector)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 247, in select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 208, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+  File "/home/dongjian/.local/lib/python3.6/site-packages/pymongo/topology.py", line 225, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: 127.0.0.1:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 637496318a9fc147f6920a59, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 111] Connection refused',)>]>
+2022-11-29T14-22-11-288744:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 395, in create_and_start_task
+    p['protocol']
+KeyError: 'protocol'
+2022-11-29T14-23-34-287547:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 395, in create_and_start_task
+    p['protocol']
+KeyError: 'protocol'
+2022-12-01T14-28-02-673932:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 1079, in get_task_result_by_page
+    row = next(ret_all)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-12-01T14-28-07-184824:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 1079, in get_task_result_by_page
+    row = next(ret_all)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration
+2022-12-01T14-28-18-814045:
+Traceback (most recent call last):
+  File "/home/dongjian/dongjian_zzkk/web_ui/wsession.py", line 1079, in get_task_result_by_page
+    row = next(ret_all)
+  File "/usr/local/lib/python3.6/dist-packages/pymongo/cursor.py", line 1198, in next
+    raise StopIteration
+StopIteration

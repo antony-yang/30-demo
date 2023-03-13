@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report report="任务2022-11-16T13-54-40-055877报告">
+	<summary>
+		<taskname>2022-11-16T13-54-40-055877</taskname>
+		<creat_time>2022-11-16T13-54-40-055877</creat_time>
+		<protocol>DongJian_IPv4</protocol>
+		<host_ip>172.16.145.25</host_ip>
+		<port>0</port>
+		<fuzzing_param></fuzzing_param>
+	</summary>
+	<task_info>
+		<total_cases>N/A</total_cases>
+		<tested_cases>783</tested_cases>
+		<start_time>2022-11-16T13-54-40-055877</start_time>
+		<end_time>2022-11-16T13-55-08-946818</end_time>
+		<time_consuming>28秒</time_consuming>
+		<task_status>finished</task_status>
+	</task_info>
+	<crash>
+		<crash_node></crash_node>
+	</crash>
+</report>

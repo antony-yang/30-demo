@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f5f6fa;
+	width: 100%;
+	height: 100%;
+}
+.container{
+	background: #fff;
+    width: 775px;
+    border-radius: 6px;
+    height: 754px;
+    margin: 0 auto;
+    position: relative;
+}
+.titleBox{
+	display: flex;
+	height: 70px;
+}
+.titleBox img {
+    width: 20px !important;
+    height: 20px !important;
+    display: block;
+    margin: 15px;
+}
+.titleBox span{
+    font-size: 18px;
+    color: #121A22;
+    line-height: 46px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 0px 7px 11px #5ECE95;
+}
+.inputBox{
+	display: flex;
+	width: 100%;
+}
+.circle-icon {
+    background: rgba(0,219,127,1);
+    box-shadow: 1px 1px 3px 0px rgba(106,106,106,0.33);
+    border-radius: 50%;
+    display: block;
+    width: 8px !important;
+    height: 8px !important;
+    float: left;
+    margin-top: 13px;
+}
+.inputtilte {
+    font-size: 15px !important;
+    color: #121A22;
+    letter-spacing: 1px;
+    font-weight: 600;
+    white-space: nowrap;
+    display: block;
+    text-align: left;
+    line-height: 32px;
+    padding-left: 20px;	
+}
+.inputText {
+    border: 1px solid rgba(227,227,227,1);
+    border-radius: 6px;
+    height: 35px;
+    width: 397px;
+}
+.inputBox>div:not(#selectBox){
+	width: 145px;
+	height: 80px;
+	margin-left: 80px;
+}
+/*
+.inputBox:first-child .circle-icon{
+	margin-left: 37px;
+}
+.inputBox:nth-child(2) .circle-icon{
+	margin-left: 20px;
+}*/
+.param{
+	height: 237px;
+}
+.btnsBox{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding-top: 30px;
+}
+.remoteBtn img{
+    width: 170px;
+    display: block;
+    cursor: pointer;
+}
+.startBtn{
+	padding-top: 3px;
+	position: relative;
+	margin-left: 40px;
+}
+.startBtn button{
+    font-size: 16px ;
+    color: rgb(255, 255, 255);
+    width: 160px ;
+    border: 0 ;
+    padding-left: 40px ;
+    height: 35px ;
+    border-radius: 6px ;
+    background-image: linear-gradient(to right, #FDAE6B , #FA7505);
+    box-shadow: 0px 10px 30px 0px rgba(103,206,151,0.45) ;
+    letter-spacing: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.startBtn img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    z-index: 999;
+}
+
+.resBtn{
+	padding-top: 3px;
+	position: relative;
+	margin-left: 40px;
+}
+.resBtn button{
+    font-size: 16px ;
+    color: rgb(255, 255, 255);
+    width: 160px ;
+    border: 0 ;
+    padding-left: 40px ;
+    height: 35px ;
+    border-radius: 6px ;
+    background-image: linear-gradient(to right, #FDAE6B , #FA7505);
+    box-shadow: 0px 10px 30px 0px rgba(103,206,151,0.45) ;
+    letter-spacing: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.resBtn img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    z-index: 999;
+}
+
+/*下拉框样式开始*/
+
+.my-select {
+
+    display: inline-block;
+    width: auto;
+    min-width: 397px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    color: #515a6e;
+    font-size: 14px;
+    line-height: normal;
+    position: relative;
+}
+
+.select-selection {
+    display: block;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(227,227,227,1);
+    transition: all .2s ease-in-out;
+}
+
+.select-selection:hover,
+.select-selection.select-focus {
+    border-color: #57a3f3;
+    box-shadow: 0 0 0 2px rgba(45, 140, 240, .2);
+}
+.select-selected-value {
+    display: block;
+	height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 8px;
+    padding-right: 24px;
+}
+
+.icon-select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    line-height: 1;
+    margin-top: -7px;
+    font-size: 14px;
+    color: #808695;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}
+
+.icon-select-arrow::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+    border-left: 1.5px solid #808695;
+    border-bottom: 1.5px solid #808695;
+    transform: rotate(-45deg);
+}
+
+.select-dropdown {
+    width: auto;
+    min-width: 397px;
+    max-height: 200px;
+    overflow: auto;
+    margin: 8px 0;
+    padding: 5px 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+    position: absolute;
+    z-index: 2;
+    transform-origin: center top 0px;
+    transition: all 0.3s;
+    will-change: top, left;
+    top: 30px;
+    left: 0;
+    transform: scale(1, 0);
+    opacity: 0;
+}
+
+.select-item {
+    line-height: normal;
+    padding: 7px 16px;
+    clear: both;
+    color: #515a6e;
+    font-size: 12px !important;
+    white-space: nowrap;
+    list-style: none;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+.select-item.select-item-selected,
+.select-item:hover {
+    color: #2d8cf0;
+    background-color: #f3f3f3;
+}
+/*下拉框样式结束*/
+.accountBox{
+    position: absolute;
+    top: 0;
+    right: 140px;
+    padding: 10px 10px;
+    color: #333;	
+}

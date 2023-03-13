@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report report="任务2022-11-16T10-39-18-214486报告">
+	<summary>
+		<taskname>2022-11-16T10-39-18-214486</taskname>
+		<creat_time>2022-11-16T10-39-18-214486</creat_time>
+		<protocol>DongJian_TELNET</protocol>
+		<host_ip>172.16.145.25</host_ip>
+		<port>23</port>
+		<fuzzing_param></fuzzing_param>
+	</summary>
+	<task_info>
+		<total_cases>N/A</total_cases>
+		<tested_cases>496</tested_cases>
+		<start_time>2022-11-16T10-39-18-214486</start_time>
+		<end_time>2022-11-16T10-44-36-090737</end_time>
+		<time_consuming>317秒</time_consuming>
+		<task_status>finished</task_status>
+	</task_info>
+	<crash>
+		<crash_node></crash_node>
+	</crash>
+</report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report report="任务2022-11-04T11-13-41-558336报告">
+	<summary>
+		<taskname>2022-11-04T11-13-41-558336</taskname>
+		<creat_time>2022-11-04T11-13-41-558336</creat_time>
+		<protocol>Dongjian_IEC60870_5_101</protocol>
+		<host_ip>127.0.0.1</host_ip>
+		<port>2404</port>
+		<fuzzing_param></fuzzing_param>
+	</summary>
+	<task_info>
+		<total_cases>N/A</total_cases>
+		<tested_cases>1</tested_cases>
+		<start_time>2022-11-04T11-13-41-558336</start_time>
+		<end_time>2022-11-04T11-13-58-192581</end_time>
+		<time_consuming>16秒</time_consuming>
+		<task_status>finished</task_status>
+	</task_info>
+	<crash>
+		<crash_node></crash_node>
+	</crash>
+</report>

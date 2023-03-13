@@ -1,0 +1,342 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f5f6fa;
+	width: 100%;
+	height: 100%;
+}
+.container{
+	background: #fff;
+    width: 84.47%;
+    border-radius: 5px;
+    height: 758px;
+    margin: 0 auto;
+    position: relative;
+}
+.titleBox{
+	display: flex;
+	height: 55px;
+}
+.titleBox img {
+    width: 20px !important;
+    height: 20px !important;
+    display: block;
+    margin: 15px;
+    margin-top: 17px;
+}
+.titleBox span{
+    font-size: 18px;
+    color: #121A22;
+    line-height: 55px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 0px 7px 11px #5ECE95;
+}
+.pauseBtn{
+    background: url(../img/pause.png) no-repeat !important;
+    background-position: center center!important;
+    background-size: 100%!important;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.pauseBtn.pause{
+	background: url(../img/start.png) no-repeat !important;
+	background-position: center center!important;
+    background-size: 100%!important;
+	
+}
+
+.lookBtn {
+    background: url(../img/look.png) no-repeat !important;
+    background-position: center center!important;
+    width: 30px;
+    height: 20px;
+    border: 0;
+    padding: 0;
+    /*margin-left: 32px;*/
+    cursor: pointer;
+}
+.delBtn {
+    background: url(../img/del.png) no-repeat !important;
+    background-position: center center!important;
+    width: 30px;
+    height: 20px;
+    border: 0;
+    padding: 0;
+    /*margin-left: 32px;*/
+    cursor: pointer;
+}
+.container .layui-tab{
+	margin: 0;
+}
+.container .layui-tab-title li {
+    margin-right: 0;
+    border-top: 4px solid;
+    border-color: transparent;
+    background-color: transparent;
+    width: 232px;
+    height: 49px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(102,102,102,1);
+    line-height: 44px;
+    font-family: Source Han Sans CN;
+    box-sizing: border-box;
+}
+.container .layui-tab-title{
+	height: 49px;
+	background: #f5f6fa;
+	border-bottom: 0 none;
+}
+.container .layui-tab-title .layui-this:after{
+	content: none;
+}
+.container .layui-tab-title .layui-this {
+    border-radius: 6px 6px 0px 0px;
+    border-top: 4px solid #5ECE95;
+    background: #fff;
+    color: rgba(18,26,34,1);
+}
+.container .layui-tab-content{
+	padding: 0;
+}
+.container .tableBox{
+	width: 98%;
+	margin: 0 auto;
+}
+.container .layui-table-view .layui-table td, .layui-table-view .layui-table th{
+	border: 0;
+}
+
+.tableBox .layui-table tr:first-child>th:first-child {
+    border-top-left-radius: 4px;
+}
+.tableBox .layui-table tr:first-child>th:last-child {
+    text-align: center;
+    border-top-right-radius: 4px;
+}
+.tableBox .layui-table tr:last-child>td:first-child {
+    border-bottom-left-radius:4px;
+}
+.tableBox .layui-table tr:first-child>td:last-child {
+    border-bottom-right-radius: 4px;
+}
+.tableBox .layui-table tr>td:first-child,.tableBox .layui-table tr>th:first-child {
+	border-left: 1px solid #e8e8e8!important;
+}
+.tableBox .layui-table tr>td:last-child{
+	border-right: 3px solid #e8e8e8!important;
+}
+.tableBox .layui-table tr>th:last-child{
+	border-right: 1px solid #e8e8e8!important;
+}
+.layui-form.layui-border-box.layui-table-view {
+    border: 0;
+}
+.tableBox .layui-table tr>td:last-child {
+    text-align: center;
+}
+.tableBox .layui-table th,.tableBox .layui-table td{
+	box-sizing: border-box;
+}
+.tableBox .layui-table tr>td {
+    border-bottom: 1px solid #e8e8e8!important;
+}
+.tableBox .layui-table th{
+	border-top: 1px solid #e8e8e8!important;
+}
+.tableBox .layui-table tr:last-child>td{
+	border-bottom: 3px solid #e8e8e8!important;
+}
+.layui-table tr td {
+    color: #666;
+    font-family: PingFang SC;
+    font-weight: 400;
+}
+.layui-table td, .layui-table th{
+    height: 48px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 48px;
+}
+.layui-table tbody tr:nth-child(2n) {
+    background: rgba(104,207,152,0.1);
+}
+.tableBox .layui-table th span {
+    font-size: 15px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: #333;
+}
+.page{
+	text-align: center;
+}
+.page .layui-laypage .layui-laypage-curr .layui-laypage-em{
+    color: #fff;
+    background: linear-gradient(90deg,rgba(108,209,156,1),rgba(43,168,90,1));
+    border-radius: 4px;
+}
+.page .layui-laypage a, .layui-laypage span {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px!important;
+    outline: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 0 12px;
+    color: #666;
+}
+.page .layui-laypage-prev{
+	margin-right: 5px!important;
+}
+/*弹窗*/
+.popupBox{
+	/*background: url(../img/bj.png) center center no-repeat;*/
+	height: 486px;
+	overflow:auto;
+	box-sizing: border-box;
+    background-size: 90% 95%;
+    width: 100%;
+}
+.popup{
+	height: 456px;
+	padding: 30px 50px 30px 50px;
+    box-sizing: border-box;
+	position: relative;
+    
+}
+
+
+/*表格按钮如果是图标就改下背景，改下width，改下margin-top就行*/
+.stopBtn{
+    background: url(../img/break.png) no-repeat !important;
+    background-position: center center!important;
+    background-size: 100%!important;
+    width: 21px;
+    height: 21px;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.stopBtn.stop{
+	background: url(../img/start2.png) no-repeat !important;
+	background-position: center center!important;
+    background-size: 100%!important;
+}
+
+a{
+	text-decoration: none;
+}
+.layui-tab-content{
+	position: relative;
+}
+.jumpStartWebBox{
+	padding-top: 3px;
+    margin-left: 40px;
+}
+.jumpStartWeb
+{   
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	display: inline-block;
+	font-size: 16px;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    border: 0;
+    /*padding-left: 40px;*/
+    height: 35px;
+    line-height: 35px;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #FDAE6B , #FA7505);
+    box-shadow: 0px 10px 30px 0px rgba(103,206,151,0.45);
+    letter-spacing: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#page2{
+	padding-top: 10px;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.stopBtn.stop2{
+    background: url(../img/stop2.png) no-repeat !important;
+    background-position: center center!important;
+    background-size: 100%!important;
+}
+.pauseBtn.pause2{
+    background: url(../img/pause2.png) no-repeat !important;
+    background-position: center center!important;
+    background-size: 100%!important;
+    
+}
+.download,.showTask,.crash{
+   font-size: 14px;
+   color: #66ccff;
+   border: 0 none;
+   background: transparent;
+   font-weight: 600;
+   position: relative;
+}
+.download.unfinished{
+   color: #cdcdcd;
+}
+tbody .laytable-cell-1-0-9 {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    padding-bottom: 5px;
+
+}
+.layer-loading-class .layui-layer-content.layui-layer-loading2 {
+    font-weight: 600;
+    word-break: keep-all;
+    padding-top: 30px;
+    width: auto;
+}
+.layer-loading-class .layui-layer-loading2 {
+    background-position-x: center;
+}
+.accountBox {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 10px 10px;
+    color: #333;
+    z-index: 10;
+}
+.versionBox {
+    position: absolute;
+    top: 10px;
+    left: 240px;
+    padding: 10px 10px;
+    color: #333;
+    z-index: 10;
+}
+.jumpProtoWeb
+{   
+	position: absolute;
+	right: 190px;
+	top: 15px;
+	display: inline-block;
+	font-size: 16px;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    border: 0;
+    /*padding-left: 40px;*/
+    height: 35px;
+    line-height: 35px;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #FDAE6B , #FA7505);
+    box-shadow: 0px 10px 30px 0px rgba(103,206,151,0.45);
+    letter-spacing: 3px;
+    text-align: center;
+    cursor: pointer;
+}

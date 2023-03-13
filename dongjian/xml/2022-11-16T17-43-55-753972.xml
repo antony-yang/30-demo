@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report report="任务2022-11-16T17-43-55-753972报告">
+	<summary>
+		<taskname>2022-11-16T17-43-55-753972</taskname>
+		<creat_time>2022-11-16T17-43-55-753972</creat_time>
+		<protocol>Dongjian_Syslog</protocol>
+		<host_ip>172.16.145.25</host_ip>
+		<port>514</port>
+		<fuzzing_param></fuzzing_param>
+	</summary>
+	<task_info>
+		<total_cases>N/A</total_cases>
+		<tested_cases>305</tested_cases>
+		<start_time>2022-11-16T17-43-55-753972</start_time>
+		<end_time>2022-11-16T17-44-36-229040</end_time>
+		<time_consuming>40秒</time_consuming>
+		<task_status>finished</task_status>
+	</task_info>
+	<crash>
+		<crash_node></crash_node>
+	</crash>
+</report>

@@ -1,0 +1,4 @@
+[console_scripts]
+djfuzz = web_ui.djfuzz:main
+startwebapp = web_ui.startwebapp:main
+

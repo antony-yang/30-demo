@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>新建任务</title>
+		<link rel="stylesheet" href="static/layui/css/layui.css">
+		<link rel="stylesheet" href="static/css/addTaskModel.css"/>
+		<script src="static/layui/layui.js"></script>
+		<script src="static/js/jQuery3.4.1.min.js"></script>
+	</head>
+	<body>
+		<div id="form-box">
+			<!-- <form action="" method="post" enctype=""> -->
+				<div class="file-box">
+					<label>
+						<span class="must">*</span><span>请选择文件：</span>
+					</label>
+					<input class="file-input" placeholder="请选择文件"/>
+					<input class="file" type="file" name="file" id="file1" accept=".pcap"/>
+					<div class="addfile">
+						<img src="static/img/add.png"/>
+					</div>
+				</div>
+				<div class="rule-box">
+					<label>
+						<span class="must">*</span><span>过滤规则：</span>
+					</label>
+						<!-- <input id="rule"/> -->
+						<input id="bpfFilter" name="bpfFilter"/>
+					
+				</div>
+				<div>
+					<label>
+						<span class="must">*</span><span>协议层：</span>
+					</label>
+						<input id="importLayer" name="importLayer"/>
+				</div>
+			<!-- </form> -->
+		</div>
+		<script src="static/js/preload.js"></script>
+		<script src="static/js/addTaskModel.js"></script>
+	</body>
+</html>

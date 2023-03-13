@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report report="任务2022-11-04T11-42-57-495798报告">
+	<summary>
+		<taskname>2022-11-04T11-42-57-495798</taskname>
+		<creat_time>2022-11-04T11-42-57-495798</creat_time>
+		<protocol>DongJian_ikev1</protocol>
+		<host_ip>172.16.145.25</host_ip>
+		<port>500</port>
+		<fuzzing_param></fuzzing_param>
+	</summary>
+	<task_info>
+		<total_cases>N/A</total_cases>
+		<tested_cases>165</tested_cases>
+		<start_time>2022-11-04T11-42-57-495798</start_time>
+		<end_time>2022-11-04T11-43-05-324960</end_time>
+		<time_consuming>7秒</time_consuming>
+		<task_status>finished</task_status>
+	</task_info>
+	<crash>
+		<crash_node></crash_node>
+	</crash>
+</report>

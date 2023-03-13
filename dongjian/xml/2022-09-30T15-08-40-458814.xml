@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report report="任务2022-09-30T15-08-40-458814报告">
+	<summary>
+		<taskname>2022-09-30T15-08-40-458814</taskname>
+		<creat_time>2022-09-30T15-08-40-458814</creat_time>
+		<protocol>DongJian_OSPF2</protocol>
+		<host_ip>127.0.0.1</host_ip>
+		<port>0</port>
+		<fuzzing_param></fuzzing_param>
+	</summary>
+	<task_info>
+		<total_cases>N/A</total_cases>
+		<tested_cases>569</tested_cases>
+		<start_time>2022-09-30T15-08-40-458814</start_time>
+		<end_time>2022-09-30T15-09-08-455094</end_time>
+		<time_consuming>27秒</time_consuming>
+		<task_status>finished</task_status>
+	</task_info>
+	<crash>
+		<crash_node></crash_node>
+	</crash>
+</report>

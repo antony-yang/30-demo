@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report report="任务2022-11-04T10-41-49-512086报告">
+	<summary>
+		<taskname>2022-11-04T10-41-49-512086</taskname>
+		<creat_time>2022-11-04T10-41-49-512086</creat_time>
+		<protocol>DongJian_DNP</protocol>
+		<host_ip>172.16.145.255</host_ip>
+		<port>20000</port>
+		<fuzzing_param></fuzzing_param>
+	</summary>
+	<task_info>
+		<total_cases>N/A</total_cases>
+		<tested_cases>1</tested_cases>
+		<start_time>2022-11-04T10-41-49-512086</start_time>
+		<end_time>2022-11-04T10-42-34-722547</end_time>
+		<time_consuming>45秒</time_consuming>
+		<task_status>finished</task_status>
+	</task_info>
+	<crash>
+		<crash_node></crash_node>
+	</crash>
+</report>
