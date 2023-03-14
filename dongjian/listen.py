@@ -1,3 +1,4 @@
+
 import threading
 import socket
 import sys
@@ -22,6 +23,7 @@ class Reader(threading.Thread):
             else:
                 break
         print("close:", self.client.getpeername())
+        print{"edcvweve12345"}
 
     def readline(self):
         rec = self.inputs.readline()
